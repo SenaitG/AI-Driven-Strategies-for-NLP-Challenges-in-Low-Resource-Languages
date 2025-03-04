@@ -1,0 +1,36 @@
+Name:- Senait Gebremichael Tesfagergish
+Thesis Title:- DEEP LEARNING-BASED PART-OF-SPEECH TAGGING OF THE ETHIOPIC LANGUAGE
+Data Used:
+NagaokaTigrinyaCorpus1_0_tig_T2.xml
+NagaokaTigrinyaCorpus1_0_rom_T2.xml
+
+Data preprocess:
+process.py
+NagaokaTigrinyaCorpus1_0_rom_T2.txt
+
+Data vectorization:
+makeword2vector.py
+wordvector.txt
+
+DEEP LEARNING METHODS
+Feed Forward Neural Network:
+FFNN.py
+
+Long Short- Term memory:
+extract_data.py
+LSTM.py : manually hyperparameter optimization
+LSTM_hy.py : automatic-hyperparameter optimization
+
+Bidirectional LSTM:
+BiLSTM.py : manually hyperparameter optimization
+BiLSTM_hy.py : automatic-hyperparameter optimization
+
+Convolutional Neural Network:
+CNN.py : manually hyperparameter optimization
+cnn_hy.py : automatic- hyperparameter optimization
+
+Evaluation of LSTM and BiLSTM:
+evaluatemodel.py
+
+
+
